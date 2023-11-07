@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "No build necessary for static sites"
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: '.' # assuming your site's files are in the root of your repository
